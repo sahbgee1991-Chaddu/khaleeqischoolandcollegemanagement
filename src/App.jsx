@@ -1,9 +1,19 @@
+// =============================================
+// File Purpose: Root Enterprise Application
+// Module: App Foundation
+// =============================================
+
+import MainLayout from "./layouts/MainLayout";
+
 function App() {
   return (
-    <div>
-      <h1>Khaleeqi School & College Management SaaS</h1>
-      <p>Project Foundation Successfully Started.</p>
-    </div>
+    <MainLayout>
+      <h2>Institution Branding Engine Activated</h2>
+
+      <p>Enterprise SaaS Foundation</p>
+
+      <p>Ready for Multi-Tenant Architecture</p>
+    </MainLayout>
   );
 }
 

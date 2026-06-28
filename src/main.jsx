@@ -1,12 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import EnterpriseApp from "./app/app";
+import "./index.css";
 
-import "./styles/global.css";
+import App from "./App";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+import { AuthProvider } from "./auth";
+
+ReactDOM.createRoot(
+  document.getElementById("root")
+).render(
+
   <React.StrictMode>
-    <EnterpriseApp />
+
+    <AuthProvider>
+
+      <App />
+
+    </AuthProvider>
+
   </React.StrictMode>
+
 );
