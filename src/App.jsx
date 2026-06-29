@@ -3,18 +3,10 @@
 // Module: App Foundation
 // =============================================
 
-import MainLayout from "./layouts/MainLayout";
+import { AppRoutes } from "./routes";
 
 function App() {
-  return (
-    <MainLayout>
-      <h2>Institution Branding Engine Activated</h2>
-
-      <p>Enterprise SaaS Foundation</p>
-
-      <p>Ready for Multi-Tenant Architecture</p>
-    </MainLayout>
-  );
+  return <AppRoutes />;
 }
 
 export default App;

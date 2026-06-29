@@ -7,6 +7,8 @@ const institutionProfile = {
 
   institutionName: "Khaleeqi School & College",
 
+  tagLine: "Enterprise School Management System",
+
   shortName: "Khaleeqi",
 
   city: "Islamabad",
